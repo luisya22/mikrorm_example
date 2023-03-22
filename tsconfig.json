@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+        "module": "NodeNext",
+        "moduleResolution": "NodeNext",
+        "target": "ES2022",
+        "sourceMap": true,
+        "outDir": "dist",
+        "strict": true,
+        "skipLibCheck": true,
+        "resolveJsonModule": true,
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true,
+        "esModuleInterop": true,
+        "typeRoots": ["./typing-stubs", "./node_modules/@types"]
+    },
+    "include": ["src/**/*", "*.ts", "typing-stubs/**/*.d.ts"]
+}
